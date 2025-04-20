@@ -34,9 +34,4 @@ Le template de l'application a été inspiré du projet suivant :
 1. Clonez ce repository sur votre machine locale.
    ```bash
    git clone https://github.com/MedMelek4848/Interface_Home_Machine.git
-cd api
-npm install
-cd client
-npm install
-cd client
-npm start
+
