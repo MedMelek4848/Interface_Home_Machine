@@ -1,0 +1,92 @@
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navItems,
+.navUser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.navButton {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: white;
+  color: #003580;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navButton:hover {
+  background-color: #e1e1e1;
+}
+
+.username {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navAvatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  margin-right: 6px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: white;
+  color: #003580;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 120px;
+  z-index: 10;
+}
+
+.dropdownMenu li {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdownMenu li:hover {
+  background-color: #f0f0f0;
+}
